@@ -39,4 +39,5 @@ tidydatamean <i>- data table for summerized mean by subject and activity</i><br>
 <table><tr><th>Original Name</th><th>New Name</th></tr>
 <tr><td>V1</td><td>subject</td></tr>
 <tr><td>*[activity_labels.txt].[V2]</td><td>activity</td></tr>
+<tr><td>columns (excluding subject + activity) from in tidydata</td><td>variable</td></tr>
 <tr><td>mean of (subject + activity) from in tidydata</td><td>mean</td></tr></table>
