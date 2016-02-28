@@ -20,6 +20,6 @@ Script Notes:<br />
 4. Imports 8 files into different variables.<br />
 5. Merges data from test and train (X, y and subject) files.<br />
 6. Cleanup of column names.<br />
-7. Melt data to turn columns to variable rows
-8. Summarize mean by subject, activity and variable.
-8. Exports tidydata.txt and tidydatamean.txt to working directory.<br />
+7. Melt data to turn columns to variable rows.<br />
+8. Summarize mean by subject, activity and variable.<br />
+9. Exports tidydata.txt and tidydatamean.txt to working directory.<br />
