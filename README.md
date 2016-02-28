@@ -14,7 +14,7 @@ You should create one R script called run_analysis.R that does the following.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 Script Notes:
-1. Requires packages for plyr and reshape2
-2. Downloads zip to working directory
-3. Unzips to working directy and then renames folder to data
-4. Exports tidydata.txt and tidydatamean.txt to working directory
+1. Requires packages for plyr and reshape2.
+2. Downloads zip to working directory.
+3. Unzips to working directy and then renames folder to data.
+4. Exports tidydata.txt and tidydatamean.txt to working directory.
