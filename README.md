@@ -17,4 +17,7 @@ Script Notes:<br />
 1. Requires packages for plyr and reshape2.<br />
 2. Downloads zip to working directory.<br />
 3. Unzips to working directy and then renames folder to data.<br />
-4. Exports tidydata.txt and tidydatamean.txt to working directory.<br />
+4. Imports 8 files into different variables.
+5. Merges data from test and train (X, y and subject) files.
+6. Cleanup of column names.
+7. Exports tidydata.txt and tidydatamean.txt to working directory.<br />
