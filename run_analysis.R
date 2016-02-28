@@ -6,8 +6,8 @@
 library(plyr)
 library(reshape2)
 
-## workdir <- "C:/Users/JoseO/Documents/GitHub/Getting-and-Cleaning-Data-Course-Project/" ## my working directory
-## setwd(workdir)
+workdir <- "C:/Users/JoseO/Documents/GitHub/Getting-and-Cleaning-Data-Course-Project/" ## my working directory
+setwd(workdir)
 
 workdir <- paste0(getwd(), "/") ## Use existing working directory or change it to what works for your machine
 setwd(workdir) ## Set working directory
@@ -99,9 +99,9 @@ write.table(tidydata, paste0(workdir,"tidydata.txt"), row.names = FALSE)
 
 
 ## 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-tidydatamean <- ddply(melt(tidydata, id.vars=c("subject", "activity")), .(subject, activity), summarise, mean=mean(value))
+tidydatamean <- ddply(melt(tidydata, id.vars=c("subject", "activity")), .(subject, activity, variable), summarise, mean=mean(value))
 dim(tidydatamean)
-## [1] 180   3
+## [1] 11880     4
 
 ## Export second table
 write.table(tidydatamean, paste0(workdir,"tidydatamean.txt"), row.names = FALSE) 
