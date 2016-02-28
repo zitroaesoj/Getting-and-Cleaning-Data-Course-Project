@@ -6,8 +6,8 @@
 library(plyr)
 library(reshape2)
 
-workdir <- "C:/Users/JoseO/Documents/GitHub/Getting-and-Cleaning-Data-Course-Project/" ## my working directory
-setwd(workdir)
+## workdir <- "C:/Users/JoseO/Documents/GitHub/Getting-and-Cleaning-Data-Course-Project/" ## my working directory
+## setwd(workdir)
 
 workdir <- paste0(getwd(), "/") ## Use existing working directory or change it to what works for your machine
 setwd(workdir) ## Set working directory
